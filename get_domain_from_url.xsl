@@ -9,7 +9,7 @@
     part of the domain name is erased until the domain name is the last part.
 
     <xsl:call-template name="get_domain_from_url">
-        <xsl:with-param name="" select="'https://github.com/dabio'"/>
+        <xsl:with-param name="url" select="'https://github.com/dabio'"/>
     </xsl:call-template>
     Returns: github
 -->
